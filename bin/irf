@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'rorth'
+
+while true
+  print "IRF #{Rorth::VERSION}> "
+  break unless gets
+  parse $_
+end

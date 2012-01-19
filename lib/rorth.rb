@@ -1,5 +1,6 @@
 require "rorth/version"
+require "rorth/stack"
+require "rorth/dictionary"
+require "rorth/parser"
 
-module Rorth
-  # Your code goes here...
-end
+include Rorth
